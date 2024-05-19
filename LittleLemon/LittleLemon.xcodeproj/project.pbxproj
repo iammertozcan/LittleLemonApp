@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1EAC78632BFAAA8900AE4D52 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC78622BFAAA8900AE4D52 /* Onboarding.swift */; };
+		1EAC78652BFAAEAE00AE4D52 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC78642BFAAEAE00AE4D52 /* Home.swift */; };
 		1EAF27402BFAA4BA006A06C3 /* LittleLemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF273F2BFAA4BA006A06C3 /* LittleLemonApp.swift */; };
 		1EAF27442BFAA4BE006A06C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EAF27432BFAA4BE006A06C3 /* Assets.xcassets */; };
 		1EAF27472BFAA4BE006A06C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EAF27462BFAA4BE006A06C3 /* Preview Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		1EAC78622BFAAA8900AE4D52 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		1EAC78642BFAAEAE00AE4D52 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		1EAF273C2BFAA4BA006A06C3 /* LittleLemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleLemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EAF273F2BFAA4BA006A06C3 /* LittleLemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonApp.swift; sourceTree = "<group>"; };
 		1EAF27432BFAA4BE006A06C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			children = (
 				1EAF273F2BFAA4BA006A06C3 /* LittleLemonApp.swift */,
 				1EAC78622BFAAA8900AE4D52 /* Onboarding.swift */,
+				1EAC78642BFAAEAE00AE4D52 /* Home.swift */,
 				1EAF27432BFAA4BE006A06C3 /* Assets.xcassets */,
 				1EAF27482BFAA4BE006A06C3 /* Persistence.swift */,
 				1EAF274A2BFAA4BE006A06C3 /* LittleLemon.xcdatamodeld */,
@@ -145,6 +148,7 @@
 			files = (
 				1EAF27492BFAA4BE006A06C3 /* Persistence.swift in Sources */,
 				1EAF274C2BFAA4BE006A06C3 /* LittleLemon.xcdatamodeld in Sources */,
+				1EAC78652BFAAEAE00AE4D52 /* Home.swift in Sources */,
 				1EAC78632BFAAA8900AE4D52 /* Onboarding.swift in Sources */,
 				1EAF27402BFAA4BA006A06C3 /* LittleLemonApp.swift in Sources */,
 			);
