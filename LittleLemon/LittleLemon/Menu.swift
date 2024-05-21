@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import CoreData
 
 struct Menu: View {
     
@@ -29,6 +30,9 @@ struct Menu: View {
     
     func getMenuData() {
         let urlString = "https://raw.githubusercontent.com/Meta-Mobile-Developer-PC/Working-With-Data-API/main/menu.json"
+        
+        clearDatabase()
+        
         guard let url = URL(string: urlString) else {
             print("Invalid URL")
             return
@@ -54,6 +58,33 @@ struct Menu: View {
         }
         
         task.resume()
+    }
+    
+    func saveToCoreData(menuItems: [MenuItem]) {
+        clearDatabase()
+        for item in menuItems {
+            let dish = Dish(context: viewContext)
+            dish.title = item.title
+            dish.image = item.image
+            dish.price = item.price
+        }
+        do {
+            try viewContext.save()
+        } catch let error as NSError {
+            print("Could not save data. \(error), \(error.userInfo)")
+        }
+    }
+    
+    func clearDatabase() {
+        let fetchRequest: NSFetchRequest<NSFetchRequestResult> = Dish.fetchRequest()
+        let deleteRequest = NSBatchDeleteRequest(fetchRequest: fetchRequest)
+        
+        do {
+            try viewContext.execute(deleteRequest)
+            try viewContext.save()
+        } catch {
+            print("Failed to clear database: \(error)")
+        }
     }
     
 }

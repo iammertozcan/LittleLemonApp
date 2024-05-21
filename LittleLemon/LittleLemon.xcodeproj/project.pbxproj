@@ -35,6 +35,8 @@
 		1EC894D32BFCC39F004938CC /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Persistence.swift; path = ../../../../../../Downloads/KrOCQU2CTpmu1REIfryAvg_ae0cd909bf5e4e7db7525f835ddd50e1_CoreDataSupport/Persistence.swift; sourceTree = "<group>"; };
 		1EC894D62BFCC8F2004938CC /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
 		1EC894D82BFCC8FB004938CC /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		1EC894DA2BFCCFBD004938CC /* Dish+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dish+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1EC894DB2BFCCFBD004938CC /* Dish+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dish+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,8 @@
 		1EAF27332BFAA4BA006A06C3 = {
 			isa = PBXGroup;
 			children = (
+				1EC894DA2BFCCFBD004938CC /* Dish+CoreDataClass.swift */,
+				1EC894DB2BFCCFBD004938CC /* Dish+CoreDataProperties.swift */,
 				1EAF273E2BFAA4BA006A06C3 /* LittleLemon */,
 				1EAF273D2BFAA4BA006A06C3 /* Products */,
 			);
@@ -75,9 +79,9 @@
 				1EAF27432BFAA4BE006A06C3 /* Assets.xcassets */,
 				1EC894D22BFCC39F004938CC /* FetchedObjects.swift */,
 				1EC894D32BFCC39F004938CC /* Persistence.swift */,
+				1EAF274A2BFAA4BE006A06C3 /* ExampleDatabase.xcdatamodeld */,
 				1EC894D62BFCC8F2004938CC /* MenuList.swift */,
 				1EC894D82BFCC8FB004938CC /* MenuItem.swift */,
-				1EAF274A2BFAA4BE006A06C3 /* ExampleDatabase.xcdatamodeld */,
 				1EAF27452BFAA4BE006A06C3 /* Preview Content */,
 			);
 			path = LittleLemon;
