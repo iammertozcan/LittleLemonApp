@@ -75,8 +75,8 @@
 			children = (
 				1EAF273F2BFAA4BA006A06C3 /* LittleLemonApp.swift */,
 				1EAC78622BFAAA8900AE4D52 /* Onboarding.swift */,
-				1EAC78642BFAAEAE00AE4D52 /* Home.swift */,
 				1EAC78682BFAB2FE00AE4D52 /* UserProfile.swift */,
+				1EAC78642BFAAEAE00AE4D52 /* Home.swift */,
 				1EAC78662BFAAF6D00AE4D52 /* Menu.swift */,
 				1EC894DE2BFCD2F6004938CC /* DishDetail.swift */,
 				1EAF27432BFAA4BE006A06C3 /* Assets.xcassets */,

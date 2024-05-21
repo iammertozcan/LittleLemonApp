@@ -38,7 +38,7 @@ struct Onboarding: View {
     private var navigationBar: some View {
         HStack {
             Spacer()
-            Image("Logo")
+            Image("logo")
             Spacer()
         }
         .padding(.horizontal)
