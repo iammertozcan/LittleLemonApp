@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E6015252BFCFBBB00961BD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6015242BFCFBBB00961BD0 /* LaunchScreen.storyboard */; };
 		1EAC78632BFAAA8900AE4D52 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC78622BFAAA8900AE4D52 /* Onboarding.swift */; };
 		1EAC78652BFAAEAE00AE4D52 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC78642BFAAEAE00AE4D52 /* Home.swift */; };
 		1EAC78672BFAAF6D00AE4D52 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC78662BFAAF6D00AE4D52 /* Menu.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E6015242BFCFBBB00961BD0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EAC78622BFAAA8900AE4D52 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 		1EAC78642BFAAEAE00AE4D52 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		1EAC78662BFAAF6D00AE4D52 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
@@ -75,8 +77,8 @@
 			children = (
 				1EAF273F2BFAA4BA006A06C3 /* LittleLemonApp.swift */,
 				1EAC78622BFAAA8900AE4D52 /* Onboarding.swift */,
-				1EAC78642BFAAEAE00AE4D52 /* Home.swift */,
 				1EAC78682BFAB2FE00AE4D52 /* UserProfile.swift */,
+				1EAC78642BFAAEAE00AE4D52 /* Home.swift */,
 				1EAC78662BFAAF6D00AE4D52 /* Menu.swift */,
 				1EC894DE2BFCD2F6004938CC /* DishDetail.swift */,
 				1EAF27432BFAA4BE006A06C3 /* Assets.xcassets */,
@@ -85,6 +87,7 @@
 				1EAF274A2BFAA4BE006A06C3 /* ExampleDatabase.xcdatamodeld */,
 				1EC894D62BFCC8F2004938CC /* MenuList.swift */,
 				1EC894D82BFCC8FB004938CC /* MenuItem.swift */,
+				1E6015242BFCFBBB00961BD0 /* LaunchScreen.storyboard */,
 				1EAF27452BFAA4BE006A06C3 /* Preview Content */,
 			);
 			path = LittleLemon;
@@ -156,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E6015252BFCFBBB00961BD0 /* LaunchScreen.storyboard in Resources */,
 				1EAF27472BFAA4BE006A06C3 /* Preview Assets.xcassets in Resources */,
 				1EAF27442BFAA4BE006A06C3 /* Assets.xcassets in Resources */,
 			);
@@ -318,8 +322,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -347,8 +353,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
