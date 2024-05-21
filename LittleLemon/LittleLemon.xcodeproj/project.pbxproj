@@ -14,7 +14,7 @@
 		1EAF27402BFAA4BA006A06C3 /* LittleLemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF273F2BFAA4BA006A06C3 /* LittleLemonApp.swift */; };
 		1EAF27442BFAA4BE006A06C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EAF27432BFAA4BE006A06C3 /* Assets.xcassets */; };
 		1EAF27472BFAA4BE006A06C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EAF27462BFAA4BE006A06C3 /* Preview Assets.xcassets */; };
-		1EAF274C2BFAA4BE006A06C3 /* LittleLemon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF274A2BFAA4BE006A06C3 /* LittleLemon.xcdatamodeld */; };
+		1EAF274C2BFAA4BE006A06C3 /* ExampleDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF274A2BFAA4BE006A06C3 /* ExampleDatabase.xcdatamodeld */; };
 		1EC894D42BFCC39F004938CC /* FetchedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC894D22BFCC39F004938CC /* FetchedObjects.swift */; };
 		1EC894D52BFCC39F004938CC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC894D32BFCC39F004938CC /* Persistence.swift */; };
 		1EC894D72BFCC8F2004938CC /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC894D62BFCC8F2004938CC /* MenuList.swift */; };
@@ -77,7 +77,7 @@
 				1EC894D32BFCC39F004938CC /* Persistence.swift */,
 				1EC894D62BFCC8F2004938CC /* MenuList.swift */,
 				1EC894D82BFCC8FB004938CC /* MenuItem.swift */,
-				1EAF274A2BFAA4BE006A06C3 /* LittleLemon.xcdatamodeld */,
+				1EAF274A2BFAA4BE006A06C3 /* ExampleDatabase.xcdatamodeld */,
 				1EAF27452BFAA4BE006A06C3 /* Preview Content */,
 			);
 			path = LittleLemon;
@@ -164,7 +164,7 @@
 				1EC894D52BFCC39F004938CC /* Persistence.swift in Sources */,
 				1EAC78672BFAAF6D00AE4D52 /* Menu.swift in Sources */,
 				1EAC78692BFAB2FE00AE4D52 /* UserProfile.swift in Sources */,
-				1EAF274C2BFAA4BE006A06C3 /* LittleLemon.xcdatamodeld in Sources */,
+				1EAF274C2BFAA4BE006A06C3 /* ExampleDatabase.xcdatamodeld in Sources */,
 				1EC894D42BFCC39F004938CC /* FetchedObjects.swift in Sources */,
 				1EAC78652BFAAEAE00AE4D52 /* Home.swift in Sources */,
 				1EAC78632BFAAA8900AE4D52 /* Onboarding.swift in Sources */,
@@ -378,13 +378,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		1EAF274A2BFAA4BE006A06C3 /* LittleLemon.xcdatamodeld */ = {
+		1EAF274A2BFAA4BE006A06C3 /* ExampleDatabase.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				1EAF274B2BFAA4BE006A06C3 /* LittleLemon.xcdatamodel */,
 			);
 			currentVersion = 1EAF274B2BFAA4BE006A06C3 /* LittleLemon.xcdatamodel */;
-			path = LittleLemon.xcdatamodeld;
+			path = ExampleDatabase.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
