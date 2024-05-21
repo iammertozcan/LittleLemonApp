@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct Menu: View {
+    
+    @Environment(\.managedObjectContext) private var viewContext
     @State private var menuItems: [MenuItem] = []
     
     var body: some View {
