@@ -19,6 +19,7 @@
 		1EC894D52BFCC39F004938CC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC894D32BFCC39F004938CC /* Persistence.swift */; };
 		1EC894D72BFCC8F2004938CC /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC894D62BFCC8F2004938CC /* MenuList.swift */; };
 		1EC894D92BFCC8FB004938CC /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC894D82BFCC8FB004938CC /* MenuItem.swift */; };
+		1EC894DF2BFCD2F6004938CC /* DishDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC894DE2BFCD2F6004938CC /* DishDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		1EC894D82BFCC8FB004938CC /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		1EC894DA2BFCCFBD004938CC /* Dish+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dish+CoreDataClass.swift"; sourceTree = "<group>"; };
 		1EC894DB2BFCCFBD004938CC /* Dish+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dish+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1EC894DE2BFCD2F6004938CC /* DishDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				1EAC78642BFAAEAE00AE4D52 /* Home.swift */,
 				1EAC78682BFAB2FE00AE4D52 /* UserProfile.swift */,
 				1EAC78662BFAAF6D00AE4D52 /* Menu.swift */,
+				1EC894DE2BFCD2F6004938CC /* DishDetail.swift */,
 				1EAF27432BFAA4BE006A06C3 /* Assets.xcassets */,
 				1EC894D22BFCC39F004938CC /* FetchedObjects.swift */,
 				1EC894D32BFCC39F004938CC /* Persistence.swift */,
@@ -175,6 +178,7 @@
 				1EC894D72BFCC8F2004938CC /* MenuList.swift in Sources */,
 				1EAF27402BFAA4BA006A06C3 /* LittleLemonApp.swift in Sources */,
 				1EC894D92BFCC8FB004938CC /* MenuItem.swift in Sources */,
+				1EC894DF2BFCD2F6004938CC /* DishDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
