@@ -8,9 +8,9 @@ In this capstone project, you’ll demonstrate your proficiency in iOS developme
 
 ## Screenshots
 <div style="display: flex; justify-content: space-around;">
-    <img src="./images/launchScreen.png" alt="Launch Screen" style="width: 25%;">
-    <img src="./images/onboarding.png" alt="Onboarding Screen" style="width: 25%;">
-    <img src="./images/menu.png" alt="Menu Screen" style="width: 25%;">
-    <img src="./images/userProfile.png" alt="UserProfile Screen" style="width: 25%;">
+    <img src="./images/launchScreen.png" alt="Launch Screen" style="width: 24%;">
+    <img src="./images/onboarding.png" alt="Onboarding Screen" style="width: 24%;">
+    <img src="./images/menu.png" alt="Menu Screen" style="width: 24%;">
+    <img src="./images/userProfile.png" alt="UserProfile Screen" style="width: 24%;">
 </div>
 
