@@ -19,8 +19,29 @@ struct Menu: View {
             Text("Chicago")
             Text("We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.")
             
-            List {
-                
+            FetchedObjects(fetchRequest: dishes) { (dishes: [Dish]) in
+                List {
+                    ForEach(dishes, id: \.self) { dish in
+                        HStack {
+                            Text("\(dish.title) - \(dish.price)")
+                                .font(.headline)
+                            if let url = URL(string: dish.image) {
+                                AsyncImage(url: url) { phase in
+                                    switch phase {
+                                    case .success(let image):
+                                        image
+                                            .resizable()
+                                            .aspectRatio(contentMode: .fit)
+                                            .frame(width: 50, height: 50)
+                                    default:
+                                        ProgressView()
+                                    }
+                                }
+                                .frame(width: 50, height: 50)
+                            }
+                        }
+                    }
+                }
             }
         }
         .onAppear {
